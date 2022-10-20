@@ -1,0 +1,15 @@
+Barcode:
+
+Modules:
+
+1. pip install pillow
+2. pip install python-barcode
+
+PNG format:
+
+from barcode import EAN13
+from barcode.writer import ImageWriter
+
+number = '01234123'
+my_code = EAN13 (number, writer=ImageWriter())
+my_code.save ("new_code1")
