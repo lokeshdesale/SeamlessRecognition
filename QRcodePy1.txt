@@ -48,7 +48,7 @@ button.place (relx=0.35,rely=0.9, relwidth=0.25, relheight=0.05)
 wn.mainloop ()
 
 4. Writing function to generate and save QR Code - 
-def generateCode ():
+  def generateCode ():
   qr = qrcode.QRCode (version = size.get(),
             box_size = 10,
             border = 5)
