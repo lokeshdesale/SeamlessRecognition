@@ -1,0 +1,12 @@
+The patterns within QR codes represent binary codes that can be interpreted to reveal the code's data.
+A QR reader can identify a standard QR code based on the three large squares outside the QR code. 
+
+Once it has identified these three shapes, it knows that everything contained inside the square is a QR code.
+The QR reader then analyzes the QR code by breaking the whole thing down to a grid. 
+
+It looks at the individual grid squares and assigns each one a value based on whether it is black or white. 
+It then groups grid squares to create larger patterns.
+
+QR (Quick Response) codes were developed to store a large amount of data in a small 2D matrix barcode.
+
+Unlike barcodes, however, QR codes can store far more information (over 7,000 characters) and can be read more than ten times faster.
