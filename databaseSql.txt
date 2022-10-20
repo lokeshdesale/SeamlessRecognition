@@ -1,0 +1,12 @@
+Database:
+
+Connecting to database:
+import mysql.connector
+
+conn = mysql.connector.connect (user = 'username',
+                               host = 'localhost',
+                              database = 'database_name')
+ 
+print (conn)
+
+conn.close ()
